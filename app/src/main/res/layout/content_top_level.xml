@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.umangpatel.smarthealth.TopLevelActivity"
+    tools:showIn="@layout/activity_top_level">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smart_health"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="32sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/browse_disease"
+        android:onClick="listOfDiseases"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/search_by_symptoms"
+        android:onClick="searchBySymptoms"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/disease_quiz"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/consult_a_doctor"
+        android:onClick="emailDoctor"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/what_to_do_in_case_of"
+        android:onClick="showVideo"
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+</LinearLayout>
