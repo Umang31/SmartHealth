@@ -33,7 +33,16 @@ public class Disease {
                             "Taking over-the-counter pain relivers such as ibuprofen(Advil, Motrin)",
                     "Putting weight on the knee, doing any type of activity"),
 
-            new Disease("a", "b", "c", "d", "e", "f", "g", "h")
+            new Disease("Anemia", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Anthrax", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Asthma", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Autism", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Black eye", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Brain injury", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Cholera", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Cold exposure", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Common cold", "b", "c", "d", "e", "f", "g", "h"),
+            new Disease("Dengue fever", "b", "c", "d", "e", "f", "g", "h"),
     };
 
     //Each Disease has a name, symptoms, overview, expectations, riskfactors, treatment, selfcare and madeworseby
