@@ -9,7 +9,20 @@
     <string name="what_to_do_in_case_of">What to do in case of</string>
     <string name="title_activity_browse_disease_category">BrowseDiseaseCategoryActivity</string>
     <string name="title_activity_disease">DiseaseActivity</string>
-    <string name="title_activity_search_by_symptoms_category">SearchBySymptomsCategoryActivity
-    </string>
+    <string name="title_activity_search_by_symptoms_category">SearchBySymptomsCategoryActivity</string>
     <string name="title_activity_show_video_category">ShowVideoCategoryActivity</string>
+    <string name="title_activity_disease_quiz">DiseaseQuiz</string>
+    <string name="tru">True</string>
+    <string name="fal">False</string>
+    <string name="next">Next</string>
+    <string name="correct_toast">Correct</string>
+    <string name="incorrect_toast">Incorrect</string>
+    <string name="question_1">A person can have hepatitis A or hepatitis B without looking sick, feeling sick, or having any symptoms at all.</string>
+    <string name="question_2">People who become infected with hepatitis B can be infected for life.</string>
+    <string name="question_3">When traveling to some other countries, you may be at risk of contracting hepatitis A, even if you stay in luxury accommodations.</string>
+    <string name="question_4">According to the Centers for Disease Control and Prevention (CDC), people with diabetes have higher rates of hepatitis B than those without diabetes.</string>
+    <string name="question_5">According to the CDC, the best way to help prevent hepatitis A and/or hepatitis B infection is by getting vaccinated.</string>
+    <string name="question_6">Smoking cause no diseases</string>
+    <string name="question_7">Exercise is something that does not prevent diseases</string>
+    <string name="question_8">Antibiotics will probably be prescribed if you have stomach flu</string>
 </resources>

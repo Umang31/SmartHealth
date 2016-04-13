@@ -27,6 +27,11 @@ public class TopLevelActivity extends Activity{
         startActivity(intent);
     }
 
+    public void diseaseQuiz(View view){
+        Intent intent = new Intent(TopLevelActivity.this, DiseaseQuiz.class);
+        startActivity(intent);
+    }
+
     public void emailDoctor(View view){
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:"));
