@@ -21,7 +21,7 @@ public class SearchBySymptomsCategoryActivity extends AppCompatActivity{
         fab.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:9111"));
+                intent.setData(Uri.parse("tel:911"));
                 startActivity(intent);
             }
         });

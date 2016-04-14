@@ -2,7 +2,7 @@
     <string name="app_name">Smart Health</string>
     <string name="action_settings">Settings</string>
     <string name="smart_health">Smart Health</string>
-    <string name="browse_disease">Browse Disease</string>
+    <string name="browse_disease">Browse Health Issues</string>
     <string name="search_by_symptoms">Search By Symptoms</string>
     <string name="symptoms">Symptoms:</string>
     <string name="overview">Overview:</string>

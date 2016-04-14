@@ -21,7 +21,7 @@ public class TopLevelActivity extends Activity{
         fab.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:9111"));
+                intent.setData(Uri.parse("tel:911"));
                 startActivity(intent);
             }
         });
@@ -44,7 +44,7 @@ public class TopLevelActivity extends Activity{
 
     public void emailDoctor(View view){
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:"));
+        intent.setData(Uri.parse("mailto:smarthealthdoctor@gmail.com"));
         intent.putExtra(Intent.EXTRA_SUBJECT, "Need Consultation");
         if(intent.resolveActivity(getPackageManager()) != null){
             startActivity(intent);
