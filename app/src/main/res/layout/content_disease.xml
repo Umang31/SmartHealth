@@ -29,7 +29,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Symptoms:"
+        android:text="@string/symptoms"
         android:textSize="18sp"/>
 
     <TextView
@@ -41,7 +41,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Overview:"
+        android:text="@string/overview"
         android:textSize="18sp"/>
 
     <TextView
@@ -53,7 +53,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Expectations:"
+        android:text="@string/expectations"
         android:textSize="18sp"/>
 
     <TextView
@@ -65,7 +65,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Risk Factors:"
+        android:text="@string/risk_factors"
         android:textSize="18sp"/>
 
     <TextView
@@ -77,7 +77,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Treatment:"
+        android:text="@string/treatment"
         android:textSize="18sp"/>
 
     <TextView
@@ -89,7 +89,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Self Care:"
+        android:text="@string/self_care"
         android:textSize="18sp"/>
 
     <TextView
@@ -101,7 +101,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Made Worse By:"
+        android:text="@string/made_worse_by"
         android:textSize="18sp"/>
 
     <TextView
