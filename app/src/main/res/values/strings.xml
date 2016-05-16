@@ -13,7 +13,7 @@
     <string name="made_worse_by">Made Worse By:</string>
     <string name="disease_quiz">Disease Quiz</string>
     <string name="consult_a_doctor">Consult a Doctor</string>
-    <string name="what_to_do_in_case_of">What to do in case of</string>
+    <string name="what_to_do_in_case_of">What to do in case of..</string>
     <string name="title_activity_browse_disease_category">BrowseDiseaseCategoryActivity</string>
     <string name="title_activity_disease">DiseaseActivity</string>
     <string name="title_activity_search_by_symptoms_category">SearchBySymptomsCategoryActivity</string>
